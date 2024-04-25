@@ -3,12 +3,7 @@ import { useState } from "react";
 import images from "../src/assets/images";
 
 function App() {
-  // Create state for the images so we can figure out a way to show
-  // one image at the time and go the next or previous image with
-  // clicking on buttons
-  // I will use the state to store one image element to it at time
-  // and then when user click on buttons i will increment or decrement
-  // the index of the images array element
+  // State for current image index
   const [imageIndex, setImageIndex] = useState(0);
 
   const handleForward = () => {
@@ -44,7 +39,7 @@ function App() {
       >
         <img
           src={images[imageIndex]}
-          alt="jungle"
+          alt={`nature-${imageIndex + 1}`}
           className="max-w-full h-auto block object-contain"
         />
       </div>
@@ -55,7 +50,3 @@ function App() {
 }
 
 export default App;
-
-// To Fix:
-// *- When images changes the size of them will change too and this cause
-// the buttons to change their place vertically, fix this behavior
