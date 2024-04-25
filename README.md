@@ -1,7 +1,7 @@
 # Explanation
-This is aN *Image carousel* app that I built with **React.js**.
+This is an *Image carousel* app that I built with **React.js**.
 
-**Topics:** State hook ,TailwindCss, Css
+**Topics:** State hook ,TailwindCSS, CSS
 
 I embarked on this project as a series of practice exercises after dedicating a couple of years to learning front-end web development. My goal was twofold: to enhance my coding skills and bolster my resume, ultimately preparing myself for the job market.
 
