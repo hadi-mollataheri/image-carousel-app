@@ -33,8 +33,10 @@ function App() {
       >
         <img
           src={images[imageIndex]}
+          key={imageIndex}
           alt={`nature-${imageIndex + 1}`}
-          className="max-w-full h-auto block object-contain"
+          className="max-w-full h-auto block object-contain transition-opacity opacity-0 duration-300 ease-in"
+          onLoad={(e) => e.target.style.opacity = 1}
         />
       </div>
 
