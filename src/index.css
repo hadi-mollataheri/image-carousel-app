@@ -20,8 +20,9 @@ button {
 button::after {
   content: "";
   position: absolute;
-  width: 100%; /* Full width of the button */
-  height: 100%; /* Full height of the button */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
   justify-content: center;
