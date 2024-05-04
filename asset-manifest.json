@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/image-carousel-app/static/css/main.784585c0.css",
-    "main.js": "/image-carousel-app/static/js/main.92e23e81.js",
+    "main.css": "/image-carousel-app/static/css/main.fd6e15c8.css",
+    "main.js": "/image-carousel-app/static/js/main.e4d5a689.js",
     "static/media/6.jpg": "/image-carousel-app/static/media/6.cb280fd13a9d7e6529c3.jpg",
     "static/media/7.jpg": "/image-carousel-app/static/media/7.035f7bc71b3f99c862b2.jpg",
     "static/media/3n.jpg": "/image-carousel-app/static/media/3n.5a0dd265a7e9f14a2c21.jpg",
@@ -11,11 +11,11 @@
     "static/media/8.jpg": "/image-carousel-app/static/media/8.fb4170c79052c356e4e7.jpg",
     "static/media/4.jpeg": "/image-carousel-app/static/media/4.99dcd422c495ea8b200a.jpeg",
     "index.html": "/image-carousel-app/index.html",
-    "main.784585c0.css.map": "/image-carousel-app/static/css/main.784585c0.css.map",
-    "main.92e23e81.js.map": "/image-carousel-app/static/js/main.92e23e81.js.map"
+    "main.fd6e15c8.css.map": "/image-carousel-app/static/css/main.fd6e15c8.css.map",
+    "main.e4d5a689.js.map": "/image-carousel-app/static/js/main.e4d5a689.js.map"
   },
   "entrypoints": [
-    "static/css/main.784585c0.css",
-    "static/js/main.92e23e81.js"
+    "static/css/main.fd6e15c8.css",
+    "static/js/main.e4d5a689.js"
   ]
 }
