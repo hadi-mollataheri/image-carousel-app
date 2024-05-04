@@ -29,9 +29,9 @@ button::after {
 }
 
 button#backward-button::after {
-  content: "⇽";
+  content: "<";
 }
 
 button#forward-button::after {
-  content: "⇾";
+  content: ">";
 }
