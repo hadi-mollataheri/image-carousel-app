@@ -25,7 +25,7 @@ function App() {
       id="app-container"
       className="flex justify-center items-center mt-10 text-center"
     >
-      <button id="backward-button" onClick={handleBackward}></button>
+      <button id="backward-button" aria-label='backward button' onClick={handleBackward}></button>
 
       <div
         id="images-container"
@@ -40,7 +40,7 @@ function App() {
         />
       </div>
 
-      <button id="forward-button" onClick={handleForward}></button>
+      <button id="forward-button" aria-label='forward button' onClick={handleForward}></button>
     </div>
   );
 }
